@@ -9,7 +9,7 @@ DiccionarioPaises = {"Guatemala": "Ciudad de Guatemala", "El Salvador": "San Sal
 
 Paises = input("Ingresa el nombre de un pais: ")
 
-if Paises in DiccionarioPaises.keys():
-    print("La capital del pais: "+ Paises + "es: " + DiccionarioPaises[Paises])
+if Paises.title() in DiccionarioPaises.keys():
+    print("La capital del pais: "+ Paises + " es," +DiccionarioPaises[Paises])
 else:
     print("Este pais", Paises, "no se encuentra en nuestra base de datos")

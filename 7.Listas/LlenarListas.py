@@ -1,5 +1,5 @@
-edad =[]
+lista =[]
 
 edad = int(input("Ingresa edad: "))
-edad.append()
-print(edad)
+lista.append(edad)
+print(lista)
