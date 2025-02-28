@@ -1,0 +1,89 @@
+header {
+    background-color: #333; /* Establece el color de fondo del header a un gris oscuro */
+    color: white; /* Establece el color del texto dentro del header a blanco */
+    width: 770px; /* Establece el ancho del header a 550 píxeles */
+    height: 100px; /* Establece la altura del header a 180 píxeles */
+    border: #ff0000 solid 2px; /* Establece un borde rojo sólido de 2 píxeles de grosor */
+    margin: 5px; /* Añade un margen de 5 píxeles alrededor del header */
+    border-radius: 10px; /* Redondea las esquinas del borde con un radio de 10 píxeles */
+}
+
+li {
+    display: inline; /* Hace que los elementos de la lista se muestren en línea */
+    margin-right: 10px; /* Añade un margen de 10 píxeles a la derecha de cada elemento de la lista */
+}
+
+li a {
+    color: #ff0066; /* Establece el color del texto de los enlaces dentro de la lista a rojo */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+.youtube-link {
+    color: #09ff00; /* Establece el color del texto del enlace de youtube a verde */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+main{
+    width: 760px;
+    height: 400px;
+    background-color: bisque;
+}
+
+nav{
+    width: 150px;
+    height: 400px;
+    background-color: #f99704;
+    float: left; /*Hace que el elemento flote a la izquierda*/
+    margin: auto;
+    border-radius: 15px;
+}
+
+section{
+    width: 400px;
+    height: 400px;
+    background-color: #12bfd5;
+    float: left;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+#primero {
+    width: 380px;
+    height: 80px;
+    background-color: #002aff;
+    border-radius: 15px;
+    margin: 10px;
+}
+#segundo {
+    width: 380px;
+    height: 80px;
+    background-color: #ff00ff;
+    border-radius: 15px;
+    margin: 10px;
+}
+#tercero {
+    width: 380px;
+    height: 80px;
+    background-color: #ff0000;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+aside{
+    width: 25%;
+    height: 300px;
+    float: left;
+    background-color: #405b69;
+    border-radius: 15px;
+    margin: auto;
+}
+
+footer{
+    width: 770px;
+    height: 100px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    clear: both; /*Hace que el elemento no flote a la izquierda ni a la derecha*/
+    border-radius: 15px;
+}

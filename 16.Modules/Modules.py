@@ -17,5 +17,3 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '1
 from Ejercicio4_lewis import palindroma
 
 palindroma("cobre") # True
-
-
