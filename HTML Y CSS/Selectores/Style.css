@@ -1,0 +1,49 @@
+/**{
+    font-size: 50px;
+    font-family: 'Arial', sans-serif;
+  
+}*/
+/*h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}*/
+
+/*h1, h2, p{
+    color: red;
+    background-color: wheat;
+}*/
+
+/*p a{
+    color: rgb(0, 255, 55);
+    background-color: yellow;
+}*/
+/* Esta es otra manera de indicar mediante CSS que se aplique a los elementos que 
+esten dentro de un elemento padre, en este caso los elementos <a> que esten dentro de un elemento <p> */
+
+/*h1 > a{
+    color: rgb(255, 0, 0);
+    background-color: rgb(4, 136, 153);
+}*/
+/* Esta es otra manera de indicar mediante CSS que se aplique a los elementos que
+esten directamente dentro de un elemento padre, en este caso los elementos <a> que esten directamente dentro de un elemento <h1> */
+
+/*h2 + h3{
+    color: rgb(255, 0, 255);
+    background-color: rgb(4, 136, 153);
+}*/
+/* Esta es otra manera de indicar mediante CSS que se aplique al elemento que
+este directamente despues de un elemento, en este caso los elementos <h3> que esten directamente despues de un elemento <h2> */
+
+/*[class]{
+    color: rgb(14, 86, 121);
+    background-color: rgb(0, 0, 0);
+}*/
+/* Esta es otra manera de indicar mediante CSS que se aplique a todos los elementos que tengan un atributo, en este caso los 
+elementos que tengan un atributo class */
+
+/*[class="linkeo"]{
+    color: rgb(102, 0, 255);
+    background-color: rgb(4, 136, 153);
+}*/
+/* Esta es otra manera de indicar mediante CSS que se aplique a todos los elementos que tengan un atributo con un valor 
+especifico, en este caso los elementos que tengan un atributo class con el valor linkeo */

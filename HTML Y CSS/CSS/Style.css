@@ -1,0 +1,30 @@
+/*h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+main{
+    height: 1000px;
+    width: 1000px;
+    background-color: rgb(0, 0, 0);
+}*/
+
+/*p {
+    color: rgb(158, 1, 1);
+    font-size: 20px;;
+}
+
+a {
+    color: inherit
+}*/
+
+P{
+    color: aqua !important; /* !important sobreescribe cualquier estilo, le da la prioridad sobre cualquier otro como la clase o el ID */
+}
